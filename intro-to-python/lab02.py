@@ -28,7 +28,7 @@ def take_first(todos):
         todo = todos.pop(0)
         return(todo, todos)
     else:
-        (None, todos)
+        return (None, [])
 
 def sum_points(todos):
         """
